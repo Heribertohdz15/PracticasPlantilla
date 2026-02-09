@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Mis Prácticas Web</title>
@@ -7,18 +8,21 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background-color: #506947;
+            background-color: #7c8d69;
             margin: 0;
-            padding: 20px;
+
         }
 
         header {
             text-align: center;
-            margin-bottom: 30px;
+            margin: 0;
         }
 
-        h1 { 
+        h1 {
             color: #ffffff;
+            background-color: #2b411d;
+            padding: 15px 20px;
+            margin: 0 0 30px 0;
         }
 
         .contenedor {
@@ -33,7 +37,7 @@
             background: rgb(128, 158, 127);
             border-radius: 12px;
             padding: 20px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             text-align: center;
             transition: 0.2s;
         }
@@ -44,7 +48,7 @@
 
         .card a {
             text-decoration: none;
-            background: #35572c;
+            background: #1d5f40;
             color: white;
             padding: 8px 14px;
             border-radius: 6px;
@@ -55,53 +59,73 @@
         .card a:hover {
             background: #9fda8d;
         }
+
+        .simple-footer {
+            background-color: #2b411d;
+            color: #f9fafb;
+            text-align: center;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            margin-top: 40px;
+        }
+
+        .simple-footer p {
+            margin: 6px 0;
+        }
     </style>
 </head>
+
 <body>
 
-<header>
-    <h1>Mis Prácticas de Desarrollo Web</h1>
-</header>
+    <header>
+        <h1>Mis Prácticas de Desarrollo Web</h1>
+    </header>
 
-<div class="contenedor">
+    <div class="contenedor">
 
-    <div class="card">
-        <h3>Práctica 1</h3>
-        <p>Formulario de productos</p>
-        <a href="Practica1/index.html">Abrir</a>
+        <div class="card">
+            <h3>Práctica 1</h3>
+            <p>Formulario de productos</p>
+            <a href="Practica1/index.html">Abrir</a>
+        </div>
+
+        <div class="card">
+            <h3>Práctica 2</h3>
+            <p>Lista de productos</p>
+            <a href="Practica_Leaflet_OpenStreetMap/index.html">Abrir</a>
+        </div>
+
+        <div class="card">
+            <h3>Práctica 3</h3>
+            <p>Api de Dragon ball Z</p>
+            <a href="PracticaDragonBall/index.html">Abrir</a>
+        </div>
+
+        <div class="card">
+            <h3>Práctica 4</h3>
+            <p>Integracion de Api propia</p>
+            <a href="Practica_integracionApiPropia/index.html">Abrir</a>
+        </div>
+
+        <div class="card">
+            <h3>Práctica 5</h3>
+            <p>Api de productos DumyJson</p>
+            <a href="Practica_En_Clase/home.html">Abrir</a>
+        </div>
+
+        <div class="card">
+            <h3>Práctica 6</h3>
+            <p>Dasboard Administreación de Productos</p>
+            <a href="Dashboard_Administrativo_Productos/index.html">Abrir</a>
+        </div>
+
     </div>
-
-    <div class="card">
-        <h3>Práctica 2</h3>
-        <p>Lista de productos</p>
-        <a href="Practica_Leaflet_OpenStreetMap/index.html">Abrir</a>
-    </div>
-
-    <div class="card">
-        <h3>Práctica 3</h3>
-        <p>Api de Dragon ball Z</p>
-        <a href="PracticaDragonBall/index.html">Abrir</a>
-    </div>
-
-    <div class="card">
-        <h3>Práctica 4</h3>
-        <p>Integracion de Api propia</p>
-        <a href="Practica_integracionApiPropia/index.html">Abrir</a>
-    </div>
-
-    <div class="card">
-        <h3>Práctica 5</h3>
-        <p>Api de productos DumyJson</p>
-        <a href="Practica_En_Clase/home.html">Abrir</a>
-    </div>
-
-    <div class="card">
-        <h3>Práctica 6</h3>
-        <p>Dasboard Administreación de Productos</p>
-        <a href="Dashboard_Administrativo_Productos/index.html">Abrir</a>
-    </div>
-
-</div>
-
+    <footer class="simple-footer">
+        <p><strong>Heriberto Hernández Bautista</strong></p>
+        <p>📞 Teléfono: 7712363618</p>
+        <p>📧 Correo: heribertobta.z@gmail.com</p>
+    </footer>
 </body>
+
 </html>

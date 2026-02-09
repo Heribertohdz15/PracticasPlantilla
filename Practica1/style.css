@@ -1,38 +1,85 @@
-body{
-    font-family: sans-serif;
-    padding: 25px;
-    background-color: #7f9c9a;
+/* RESET GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.tarjeta{
+
+body {
+    font-family: sans-serif;
+    background-color: #9da771;
+}
+
+/* HEADER BIEN PEGADO */
+header {
+    background-color: #3e4d57;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+/* TITULO */
+header h1 {
+    color: white;
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* CONTENEDOR BOTONES */
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* TARJETAS */
+.tarjeta {
     margin: 20px;
-    border: 2px;
-    border-style: solid;
+    border: 2px solid black;
     border-radius: 20px;
     padding: 15px;
 }
+
+/* BOTONES */
 .btn-volver {
     background-color: #3e4d57;
     color: white;
     border: none;
     padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
 }
+
 .btn-mostrar {
     background-color: #406ea3;
     color: white;
     border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    padding: 12px 25px;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
-}   
+}
+
+/* EFECTO HOVER */
+.btn-volver:hover,
+.btn-mostrar:hover {
+    opacity: 0.85;
+}
+.simple-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2f3f1f;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    z-index: 1000;
+}
+
+.simple-footer p {
+            margin: 6px 0;
+}
