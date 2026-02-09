@@ -149,3 +149,17 @@ header{
     text-align: center;
     padding: 8px;
 }
+.btn-volver {
+    left: 75px;
+    background-color: #cabe7a;
+    color: rgb(26, 25, 25);
+    border: none;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
